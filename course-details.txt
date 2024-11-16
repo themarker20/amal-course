@@ -1,0 +1,37 @@
+Text Editor: Visual Studio Code
+Browser: Google Chrome 
+Root: Main Folder
+
+Front End: {Web Design} {UI / User Interface}
+	 	> HTML
+		> CSS
+		> JavaScript
+		> Tilwind
+		> Bootstrap
+
+Back End: {Web Development}
+		> PHP
+		> MySQL
+
+		
+
+
+Web Design > HTML
+						(Hyper Text Markeup Language)
+
+						Container Tag
+						<العنصر>
+							المحتوى
+						</العنصر>
+
+						Self Closing Tag
+						<العنصر>
+
+										> html
+										> head
+										> body
+										> meta
+										> title
+						
+(Heading Elements)	> h1 : h6
+										> p
