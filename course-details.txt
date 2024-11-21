@@ -27,6 +27,8 @@ Web Design > HTML
 						Self Closing Tag
 						<العنصر>
 
+						Block Level Element  X  Inline Element
+
 										> html
 										> head
 										> body
@@ -35,3 +37,7 @@ Web Design > HTML
 						
 (Heading Elements)	> h1 : h6
 										> p
+										> img (src, alt, width, height)
+										> a (href)
+										> Comment  (<!-- -->)
+
