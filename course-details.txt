@@ -27,6 +27,10 @@ Web Design > HTML
 						Self Closing Tag
 						<العنصر>
 
+						// Block & Inline
+
+						// Parent & Child
+
 						Block Level Element  X  Inline Element
 
 										> html
@@ -40,4 +44,10 @@ Web Design > HTML
 										> img (src, alt, width, height)
 										> a (href)
 										> Comment  (<!-- -->)
+										> hr (Horizontal Rule)
+										> ul (Unordered List)
+										> ol (Ordered List)
+										> li (List Item)
+										> dl ()
+
 
