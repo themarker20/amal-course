@@ -31,6 +31,8 @@ Web Design > HTML
 
 						// Parent & Child
 
+						// Nesting
+
 						Block Level Element  X  Inline Element
 
 										> html
@@ -39,15 +41,22 @@ Web Design > HTML
 										> meta
 										> title
 						
-(Heading Elements)	> h1 : h6
+										> h1 : h6 (Heading Elements)
 										> p
 										> img (src, alt, width, height)
 										> a (href)
 										> Comment  (<!-- -->)
 										> hr (Horizontal Rule)
+										> br (Break Line)
 										> ul (Unordered List)
 										> ol (Ordered List)
 										> li (List Item)
 										> dl ()
+
+										(Formatting Text)
+										> u  (Underline)
+										> b (strong) (Bold Text)
+										> i (em) (Italic Text)
+
 
 
