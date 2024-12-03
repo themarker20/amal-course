@@ -58,5 +58,10 @@ Web Design > HTML
 										> b (strong) (Bold Text)
 										> i (em) (Italic Text)
 
+										> table (Main Box)
+										> tr    (Table Row)
+										> th    (Table Head)
+										> td    (Table Data)
+
 
 
