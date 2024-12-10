@@ -63,5 +63,16 @@ Web Design > HTML
 										> th    (Table Head)
 										> td    (Table Data)
 
+										> form   (Document)
+										> input  (input field)
+												(text, number, email, password)
+												(file, date, month, week, color)
+												(sumbit)
+
+										> textarea (Message)
+										> button
+										> label
+
+										(radio / checkbox)
 
 
