@@ -32,58 +32,68 @@ Self Closing Tag
 
 // Nesting
 
-Block Level Element  X  Inline Element
+// Block Level Element  X  Inline Element
 
-		> html
-		> head
-		> body
-		> meta
-		> title
+	> html > العنصر الرئيسى لصفحه الويب
+	> head > عنصر يحتوى على ادوات التحكم فى الصفحه
+	> body > عنصر يحتوى على محتويات الصفحة
+	> meta > عنصر يعتبر به مجموعه تحكمات خاصه باللغه والمحتوى والوصف وغير
+	> title > يكتب به عنوان صفحة الويب الذى يظهر بشريط العنوان
 
-		> h1 : h6 (Heading Elements)
-		> p
-		> img (src, alt, width, height)
-		> a (href)
-		> Comment  (<!-- -->)
-		> hr (Horizontal Rule)
-		> br (Break Line)
-		> ul (Unordered List)
-		> ol (Ordered List)
-		> li (List Item)
-		> dl ()
+	> h1 : h6 (Heading Elements) > عناصر العناوين الرئيسية
+		و عنصر (h1) يكتب مره واحدة فقط فى الصفحه لأنه يكون افضل ومناسب لمحركات البحث
+	> p
+	> img (src, alt, width, height) عنصر الصوره
+	> a (href) اللينك (هايبر ريفرانس أو المسار)
+	> Comment  (<!-- -->) التعليق ولا يؤثر فى محتوى الصفحه ولا يظهر و لكن مهم للملاحظات
+	> hr (Horizontal Rule) خط \ سطر فاصل بالعرض
+	> br (Break Line)  سطر فارغ - يترك السطر للعنصر السابق
+	> ul (Unordered List) قائمة غير مرقمة
+	> ol (Ordered List) قائمة مرقمة
+	> li (List Item) عنصر القائمة
+	> dl () قائمة ولكن تبدأ من بداية الصفحه وغير مستخدمة كثيراً
 
-	(Formatting Text)
-		> u  (Underline)
-		> b (strong) (Bold Text)
-		> i (em) (Italic Text)
-	(Table)
-		> table (Main Box)
-		> tr    (Table Row)
-		> th    (Table Head)
-		> td    (Table Data)
-	(Form)
-		> form   (Document)
-		> input  (input field)
-						(text, number, email, password)
-						(file, date, month, week, color)
-						(sumbit, radio, checkbox)
+(Formatting Text)
+	> u  (Underline) >  يضع خط تحت الكلام
+	> b (strong) (Bold Text) > يجع الكلام سميك
+	> i (em) (Italic Text) >  يجعل الكلام مائل
+(Table)
+	> table (Main Box) > عنصر الجدول الرئيسى
+	> tr    (Table Row) > صف الجدول 
+	> th    (Table Head) > خلية عنوان
+	> td    (Table Data) > خلية بيانات
+(Form)
+	> form   (Document) > وثيقة بيانات
+	> input  (input field) >  حقل إدخال وكل نوع مميز
+					(text, number, email, password)
+					(file, date, month, week, color)
+					(sumbit, radio, checkbox)
 
-		> textarea (Message)
-		> button
-		> label
+	> textarea (Message) >  مساحة كتابة رسالة
+	> button > زر وله استخدامات خارج الوثيقة
+	> label > يعتبر عنصر يميز حقل الإدخال
 
-	(Semantic Elements)
-		> nav (Navigation)
-			{logo / links}
-			
-		> header (Landing)
-			{Main Heading + Short Description + Referance}
+(Semantic Elements) >  العناصر المميزة لصفحة الويب 
+    -- وهى عناصر مفهمومه للمتصفحات واستخدامها فى تقسيم اجزاء الصفحه هو الأهم
+		-- وكل عنصر له معنى خاص به و استخدام محدد
 
-		> main (Main Content)
-			> section (Semi - Semantic)
-			> div (Box)
 
-		> footer (CTA) (Call To Action)
+	> nav (Navigation) > عنصر خاص لعناصر الصفحه والتنقل فيما بينها 
+				-- إن كانت اجزاء فى نفس الصفحه أو صفحات جانبيه
+		{logo / links}
+		
+	> header (Landing) > جزء خاص بالهبوط
+				-- أول جزء يظهر للمستخدم عند فتح الموقع
+		{Main Heading + Short Description + Referance}
+		{لينك + وصف بسيط للموقع + العنوان الرئيسى}
+
+	> main (Main Content) > خاص بالمحتوى الأساسى والكامل للصفحه
+				-- يحتوى على محتوى الصفحة بالكامل و كافة التقسيمات
+		> section (Semi - Semantic) > عنصر شبه مميز لأنه يقسم اجزاء ايضاً
+		> div (Box) > عنصر ميزته الأساسية أنه يساعدنى فى تقسيم اجزاء الموقع البسيطه والتعامل معها كأنها صندوق يمكننى التحكم به كما شئت
+
+	> footer (CTA) (Call To Action) >  التذييل
+			-- يكون به نهاية الموقع وحقوق الملكيه واهم وسائل التواصل
 
 
 
