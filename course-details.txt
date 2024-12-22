@@ -16,63 +16,74 @@ Back End: {Web Development}
 		
 
 
-Web Design > HTML
-						(Hyper Text Markeup Language)
+Web Design > HTML (Hyper Text Markeup Language)
 
-						Container Tag
-						<العنصر>
-							المحتوى
-						</العنصر>
+Container Tag
+<العنصر>
+	المحتوى
+</العنصر>
 
-						Self Closing Tag
-						<العنصر>
+Self Closing Tag
+<العنصر>
 
-						// Block & Inline
+// Block & Inline
 
-						// Parent & Child
+// Parent & Child
 
-						// Nesting
+// Nesting
 
-						Block Level Element  X  Inline Element
+Block Level Element  X  Inline Element
 
-										> html
-										> head
-										> body
-										> meta
-										> title
-						
-										> h1 : h6 (Heading Elements)
-										> p
-										> img (src, alt, width, height)
-										> a (href)
-										> Comment  (<!-- -->)
-										> hr (Horizontal Rule)
-										> br (Break Line)
-										> ul (Unordered List)
-										> ol (Ordered List)
-										> li (List Item)
-										> dl ()
+		> html
+		> head
+		> body
+		> meta
+		> title
 
-										(Formatting Text)
-										> u  (Underline)
-										> b (strong) (Bold Text)
-										> i (em) (Italic Text)
+		> h1 : h6 (Heading Elements)
+		> p
+		> img (src, alt, width, height)
+		> a (href)
+		> Comment  (<!-- -->)
+		> hr (Horizontal Rule)
+		> br (Break Line)
+		> ul (Unordered List)
+		> ol (Ordered List)
+		> li (List Item)
+		> dl ()
 
-										> table (Main Box)
-										> tr    (Table Row)
-										> th    (Table Head)
-										> td    (Table Data)
+	(Formatting Text)
+		> u  (Underline)
+		> b (strong) (Bold Text)
+		> i (em) (Italic Text)
+	(Table)
+		> table (Main Box)
+		> tr    (Table Row)
+		> th    (Table Head)
+		> td    (Table Data)
+	(Form)
+		> form   (Document)
+		> input  (input field)
+						(text, number, email, password)
+						(file, date, month, week, color)
+						(sumbit, radio, checkbox)
 
-										> form   (Document)
-										> input  (input field)
-												(text, number, email, password)
-												(file, date, month, week, color)
-												(sumbit)
+		> textarea (Message)
+		> button
+		> label
 
-										> textarea (Message)
-										> button
-										> label
+	(Semantic Elements)
+		> nav (Navigation)
+			{logo / links}
+			
+		> header (Landing)
+			{Main Heading + Short Description + Referance}
 
-										(radio / checkbox)
+		> main (Main Content)
+			> section (Semi - Semantic)
+			> div (Box)
+
+		> footer (CTA) (Call To Action)
+
 
 
